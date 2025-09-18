@@ -33,7 +33,6 @@ def run_classification(df, text_column="text", prompts_dir="prompts", threshold=
 
 if __name__ == "__main__":
     df = pd.read_csv("llm_responses.csv")
-    df = df[:10] # for testing, only use first 10 rows
     df = run_classification(df, text_column="response", prompts_dir="prompts", threshold=0.5)
     df.to_csv("llm_responses_labeled.csv", index=False)
     print(df.head())
