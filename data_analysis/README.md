@@ -1,6 +1,6 @@
 # Analysis Overview
 
-All of the analysis lies primarily in `analysis.ipynb`. In particular, I explored the following questions. 
+All of the analysis lies primarily in `analysis.ipynb`. The motivation is moreso exploratory, so much of the analysis should be treated as "proof-of-concept" and observations that get brought up in corridor conversations with colleagues as opposed to a well-vetted research output. Anyhow, we explored the following questions. 
 
 ## 1. Can the treatment messages be associated with academic theories of persuasion? 
 
@@ -31,6 +31,8 @@ Since the hand-crafted feature approach in (1) and the full blown word embedding
 
 # Future Directions 
 - An interesting question would be whether we can meaningfully distinguish between AI and human generated persuasion messages. However, this dataset only contains 10 human-written messages so we cannot do that at this time. 
+- Our automatic persuasion strategy annotation procedure in `classify.py` is extremely coarse. Visual inspection of `strategies_scatter_plot/residual_embeddings_central_vs_peripheral.html` reveals that this classification (as in `llm_responses_labeled.csv`) may not be reliable. If you hover over the points, you get to see which strategies they are labeled with. Many (if not most) of the points are labeled with multiple strategies. It would be good to refine this labeling in the future, or adopt an uncertainty quantification approach, e.g. prediction-powered inference. 
+- Our regression procedure can also certainly be improved upon in (1). 
 
 # References 
 - Movva, R., Peng, K., Garg, N., Kleinberg, J., & Pierson, E. (2025). Sparse Autoencoders for Hypothesis Generation. In Proceedings of the 42nd International Conference on Machine Learning (ICML).
