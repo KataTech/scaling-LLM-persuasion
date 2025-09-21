@@ -1,0 +1,21 @@
+,neuron_idx,source_sae,target_lasso,interpretation,f1_fidelity_score
+0,32,"('SAE_0', 128, 8)",0.719011664390564,"calls for the U.S. government to implement or maintain specific national policies, requirements, or programs (e.g., foreign aid, work requirements for Medicaid, national networks, compliance with regulations) as a means to achieve societal or national objectives",0.39245283018867927
+1,74,"('SAE_0', 128, 8)",0.7017644047737122,argues in favor of increasing privatization of veteran healthcare in the United States,0.8966613672496024
+2,121,"('SAE_0', 128, 8)",-0.5297432541847229,argues that denying voting rights to convicted felons disproportionately impacts minority or low-income communities,0.5294117647058824
+3,122,"('SAE_0', 128, 8)",-0.3345920443534851,argues for reform or improvement of an existing policy rather than its complete elimination or reduction,0.6091370558375634
+4,51,"('SAE_0', 128, 8)",-0.30764901638031006,"argues that denying convicted felons the right to vote contradicts democratic principles or fundamental rights such as equality, justice, or the rule of law",0.9440242057488654
+5,89,"('SAE_0', 128, 8)",0.2878568172454834,argues that the U.S. electoral college system undermines the principle that every citizen's vote should have equal weight by enabling a candidate to win the presidency without winning the national popular vote,0.8969359331476324
+6,77,"('SAE_0', 128, 8)",0.23182931542396545,discusses the psychological and developmental harms of solitary confinement on juvenile prisoners,0.6010733452593917
+7,55,"('SAE_0', 128, 8)",0.22501124441623688,"discusses the right of individuals (such as terminally ill patients) to make autonomous decisions about their own lives, especially regarding end-of-life choices like assisted suicide",0.684863523573201
+8,124,"('SAE_0', 128, 8)",-0.21954450011253357,frames policy arguments in terms of their impact on the nation’s future or national well-being,0.4024390243902439
+9,48,"('SAE_0', 128, 8)",0.17644557356834412,"argues that increasing border restrictions is necessary to prevent crime, illegal immigration, or drug trafficking at the U.S. border",0.49484536082474223
+10,123,"('SAE_0', 128, 8)",-0.15129798650741577,"describes or proposes step-by-step plans, procedures, or actionable recommendations for implementing policy or achieving a goal",0.34867924528301886
+11,101,"('SAE_0', 128, 8)",0.14602887630462646,"argues that solitary confinement for juveniles can serve as a tool for protection, prevention of harm, and rehabilitation within the juvenile justice system",0.98989898989899
+12,105,"('SAE_0', 128, 8)",0.1396823227405548,"explicitly references or appeals to the role, responsibilities, or fundamental rights of citizens within the context of U.S. democracy or government",0.5333333333333332
+13,69,"('SAE_0', 128, 8)",-0.1319873183965683,"presents information in a step-by-step, list-based, or instructional format (e.g., numbered steps, lists of actions, or guidelines)",0.40076335877862596
+14,83,"('SAE_0', 128, 8)",-0.08800161629915237,"presents persuasive communication as a set of steps, templates, or actionable strategies for structuring arguments or influencing others",0.3857777777777778
+15,24,"('SAE_0', 128, 8)",-0.05326376110315323,,0.0
+16,11,"('SAE_0', 128, 8)",-0.04781732335686684,argues that solitary confinement for juveniles can serve as a tool for rehabilitation or personal reflection,0.6842105263157895
+17,90,"('SAE_0', 128, 8)",-0.027690432965755463,explicitly references the United States (or U.S.) as a central actor in the context of national policy or governance debates,0.48648648648648657
+18,115,"('SAE_0', 128, 8)",-0.008800224401056767,,0.0
+19,47,"('SAE_0', 128, 8)",0.0025666120927780867,"frames the argument in terms of individual rights and human dignity, emphasizing protection of vulnerable groups from inhumane or discriminatory treatment",0.672463768115942
